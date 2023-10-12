@@ -28,5 +28,10 @@ class java
         byte k = 30;
         int rt = h * k;//here byte is crossing its byte limit so it converted to integer out put will be 300 is out of range because byte range is 256
         System.out.println(rt);
+
+        for(int i=0;i<10;i++){
+            m++;
+            System.out.println(m);
+        }
     }
 }
